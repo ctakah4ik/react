@@ -7,6 +7,7 @@ class ArticleList extends Component {
   static propTypes = {
     articles: PropTypes.array.isRequired,
     openArticleId: PropTypes.any
+    //еще toggleOpenArticle
   }
 
   render() {
